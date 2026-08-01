@@ -1,0 +1,29 @@
+{
+  "name": "@solana-passport/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:integration": "RUN_SOLANA_INTEGRATION=1 vitest run src/lib/solana.integration.test.ts"
+  },
+  "dependencies": {
+    "@solana/kit": "7.0.0",
+    "@solana/kit-plugin-rpc": "^0.13.0",
+    "@solana/kit-plugin-wallet": "^0.14.0",
+    "@solana/react": "^7.0.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@vitejs/plugin-react": "6.0.5",
+    "typescript": "7.0.2",
+    "vite": "8.2.0",
+    "vitest": "4.1.10"
+  }
+}

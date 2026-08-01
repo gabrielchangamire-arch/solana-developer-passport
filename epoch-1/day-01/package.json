@@ -1,0 +1,14 @@
+{
+  "name": "100-days-of-solana-day-01",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Generate a Solana keypair and inspect a devnet balance.",
+  "scripts": {
+    "start": "node create-wallet.mjs",
+    "check": "node create-wallet.mjs --check"
+  },
+  "dependencies": {
+    "@solana/kit": "^5.0.0"
+  }
+}

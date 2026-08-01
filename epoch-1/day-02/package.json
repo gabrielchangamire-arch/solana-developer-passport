@@ -1,0 +1,14 @@
+{
+  "name": "100-days-of-solana-day-02",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Persist and reload a Solana devnet wallet, then inspect its balance.",
+  "scripts": {
+    "start": "node persistent-wallet.mjs",
+    "evidence": "node evidence/run-twice.mjs"
+  },
+  "dependencies": {
+    "@solana/kit": "^5.0.0"
+  }
+}

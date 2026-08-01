@@ -1,0 +1,20 @@
+{
+  "name": "solana-developer-passport",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm --workspace @solana-passport/web run dev",
+    "build": "npm --workspace @solana-passport/web run build",
+    "test": "npm --workspace @solana-passport/web run test",
+    "test:integration": "npm --workspace @solana-passport/web run test:integration",
+    "verify:devnet": "node scripts/verify-devnet.mjs"
+  },
+  "devDependencies": {
+    "@solana/kit-plugin-signer": "^0.13.0"
+  }
+}
