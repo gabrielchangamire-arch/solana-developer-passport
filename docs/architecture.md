@@ -2,7 +2,7 @@
 
 ## Product goal
 
-Developer Passport gives a learner a public Solana profile whose claims can be
+Developer Passport gives a developer a Solana profile whose claims can be
 verified independently. The web app begins as a read-only account dashboard and
 is also a client for an Anchor program deployed to devnet.
 
@@ -30,7 +30,7 @@ Solana devnet
 
 ### Passport program
 
-The Anchor program derives one passport per learner:
+The Anchor program derives one passport per authority:
 
 ```text
 passport = PDA(["passport", authority_public_key], program_id)
@@ -45,7 +45,7 @@ milestone = PDA(["milestone", passport, milestone_id], program_id)
 
 Implemented instructions:
 
-1. `initialize_passport` creates the learner-owned passport.
+1. `initialize_passport` creates the authority-owned passport.
 2. `record_milestone` stores a bounded evidence URI and completion timestamp.
 3. `update_evidence` lets only the passport authority correct its own URI.
 4. `close_milestone` removes a milestone and decrements the count.

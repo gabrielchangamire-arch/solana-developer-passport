@@ -1,11 +1,11 @@
-# Day 1 submission evidence
+# Day 1 exercise evidence
 
-MLH asks for a screenshot showing the new wallet address and its funded balance
-on Solana Explorer using devnet.
+This record shows the new wallet address and its funded balance on Solana
+Explorer using devnet.
 
-Submission screenshot: [`day-01-funded-wallet.png`](./day-01-funded-wallet.png)
+Exercise screenshot: [`day-01-funded-wallet.png`](./day-01-funded-wallet.png)
 
-Before submitting, verify that the screenshot visibly includes:
+The screenshot visibly includes:
 
 - the complete public wallet address;
 - a balance greater than `0 SOL`;

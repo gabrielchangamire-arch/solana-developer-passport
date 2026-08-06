@@ -1,9 +1,9 @@
-# Day 2 submission evidence
+# Day 2 exercise evidence
 
-MLH asks for a screenshot showing the persistent wallet's address and balance
-across two separate runs of the script.
+This record shows the persistent wallet's address and balance across two
+separate runs of the script.
 
-Before submitting, verify that the evidence visibly includes:
+The evidence visibly includes:
 
 - two clearly separated invocations of the script;
 - both runs loading the persisted wallet successfully;

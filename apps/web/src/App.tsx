@@ -21,7 +21,7 @@ const roadmap = [
   {
     eyebrow: "Milestone 02",
     title: "Own progress on-chain",
-    description: "Anchor program with a learner-owned passport PDA.",
+    description: "Anchor program with an authority-owned passport PDA.",
     status: "Live",
   },
   {
@@ -91,7 +91,7 @@ function App() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="kicker">Verifiable learning, built in public</p>
+          <p className="kicker">Verifiable Solana development</p>
           <h1>
             Your Solana progress,
             <span> written on-chain.</span>
@@ -241,7 +241,7 @@ function App() {
       </section>
 
       <footer>
-        <p>Built for the MLH Solana learning journey.</p>
+        <p>Self-directed Solana project.</p>
         <p>TypeScript · React · Solana Kit · Rust · Anchor</p>
       </footer>
     </main>
