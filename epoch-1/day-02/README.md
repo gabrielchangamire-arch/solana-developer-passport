@@ -18,5 +18,5 @@ report `loaded existing wallet`, with the same address both times.
 ## Security
 
 `wallet.json` contains a private key. It has owner-only file permissions and is
-excluded by the repository's `.gitignore`. This devnet learning wallet must
+excluded by the repository's `.gitignore`. This devnet exercise wallet must
 never be reused for mainnet funds.

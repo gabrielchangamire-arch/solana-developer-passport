@@ -35,4 +35,4 @@ Deliverables:
 - Public deployment
 - Architecture diagram and security checklist
 - Two-minute product demo
-- Application-focused case study explaining tradeoffs and lessons learned
+- Engineering case study explaining tradeoffs and lessons learned

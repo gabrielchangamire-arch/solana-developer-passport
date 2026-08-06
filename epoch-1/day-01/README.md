@@ -18,8 +18,8 @@ creating another wallet:
 npm run check -- YOUR_SOLANA_ADDRESS
 ```
 
-Open the printed Explorer link and capture the address and funded devnet balance
-for the MLH submission.
+Open the printed Explorer link to verify the address and funded devnet balance
+for the exercise record.
 
 ## What I learned
 

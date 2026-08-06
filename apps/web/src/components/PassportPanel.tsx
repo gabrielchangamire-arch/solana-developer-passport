@@ -249,7 +249,7 @@ export function PassportPanel() {
         <form className="milestone-form" onSubmit={recordMilestone}>
           <div className="form-intro">
             <p className="kicker">Step 2</p>
-            <h3>Record a learning milestone</h3>
+            <h3>Record a project milestone</h3>
             <p>
               The title and evidence link are stored in a milestone PDA owned by
               your passport authority.
